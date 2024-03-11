@@ -161,17 +161,31 @@ body {
 }
 
 #banner_2 {
-    background: url(../img/brand/banner2.jpg) no-repeat top 0 right 0;
+    overflow: hidden;
 }
 #banner_2 .inner_banner_2{
     width: 1320px;
     height: 720px;
     margin: 180px auto 0;
+    display: flex;
+    justify-content: space-between;
     position: relative;
 }
 
 #banner_2 .b2_textwrap{
     padding-top: 50px;
+    width: 660px;
+}
+
+#banner_2 .b2_imgwrap{
+    width: 630px;
+    height: 930px;
+    position: relative;
+}
+.b2_imgwrap img{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 #banner_2 .b2_textwrap p{
