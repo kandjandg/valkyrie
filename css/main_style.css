@@ -415,7 +415,7 @@ body {
 }
 
 #banner_5 .color_button li{
-    margin-top: 15px;
+    margin-top: 30px;
 }
 #banner_5 .color_button li a{
     color:#FFCCD0;
@@ -457,4 +457,17 @@ body {
 
 #footer .footer_right li:nth-child(1) a{
     margin-left: 10px;
+}
+
+button{
+    border: none;
+    font-weight: bold;
+    position: fixed;
+    color: #be1622;
+    right: 100px;
+    bottom: 50px;
+    background: none;
+    /* padding: 30px 25px; */
+    /* border-radius: 50%; */
+    cursor: pointer;
 }

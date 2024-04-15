@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=1400">
     <title>valkyrie</title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="images/" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <!-- webfont -->
     <link rel="stylesheet" as="style" crossorigin
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" />
@@ -22,10 +22,11 @@
             <div>
                 <div class="gnb">
                     <ul>
-                        <li><a href="sub_html/sub_brand.html">BRAND</a></li>
-                        <li><a href="#">TIL VALHALLA</a></li>
-                        <li><a href="#">SHOP</a></li>
-                        <li><a href="#">EVENT</a></li>
+                        <li><a href="./sub_html/sub_brand.html">BRAND</a></li>
+                        <li><a href="./sub_html/sub_tilbalhalla.html">TIL VALHALLA</a></li>
+                        <li><a href="./sub_html/sub_shop.html">SHOP</a></li>
+                        <li><a href="./sub_html/sub_event.html">EVENT</a></li>
+                        <li><a href="./sub_html/sub_vision.html">VISION</a></li>
                     </ul>
                     <div>
                         <div class="search_bar">
@@ -83,7 +84,7 @@
         <div id="slide_wrap">
             <ul>
                 <li>Best of VALKYRIE⚡</li>
-                <li class="button"><a href="#">shop→</a>
+                <li class="button"><a href="./sub_html/sub_shop.html">shop→</a>
                 </li>
             </ul>
             <div id="slide" class="swiper-container">
@@ -196,30 +197,30 @@
                         혜택이 주어지며</p>전문가가 알려주는 웨이트,요가,테니스,골프 등의 운동 정보와<br>균형있는 영양소로 이루어진 식단 구성을 제공합니다. <p>강하고 당찬
                         여전사들과 함께하길 원한다면<br><strong>TIL VALHALLA!</strong></p>
                     </p>
-                    <p class="button"><a href="#">more→</a></p>
+                    <p class="button"><a href="./sub_html/sub_tilbalhalla.html">more→</a></p>
                 </div>
             </div>
         </div>
         <div id="banner_4">
             <ul>
                 <li>EVENT</li>
-                <li class="button"><a href="#">more→</a>
+                <li class="button"><a href="./sub_html/sub_event.html">more→</a>
                 </li>
             </ul>
             <ul class="event">
                 <li>
-                    <a href="#"><img src="./img/main/event_1.jpg" alt="event"></a>
-                    <p class="event_title"><span>[이벤트]</span><a href="#"> VALKYRIE 브랜드 위크세일 최대 50%할인 특가전!</a></p>
+                    <a href="./sub_html/sub_event.html"><img src="./img/main/event_1.jpg" alt="event" width="420px"></a>
+                    <p class="event_title"><span>[이벤트]</span><a href="./sub_html/sub_event.html"> VALKYRIE 브랜드 위크세일 최대 50%할인 특가전!</a></p>
                     <p class="period"><span>[기간]</span> 2/27 ~ 3/5</p>
                 </li>
                 <li>
-                    <a href="#"><img src="./img/main/event_2.jpg" alt="event"></a>
-                    <p class="event_title"><span>[이벤트]</span><a href="#"> 이월상품 후드티 특가 할인전 (일부항목)</a></p>
+                    <a href="./sub_html/sub_event.html"><img src="./img/main/event_2.jpg" alt="event" width="420px"></a>
+                    <p class="event_title"><span>[이벤트]</span><a href="./sub_html/sub_event.html"> 이월상품 후드티 특가 할인전 (일부항목)</a></p>
                     <p class="period"><span>[기간]</span> 2/10 ~ 3/31</p>
                 </li>
                 <li>
-                    <a href="#"><img src="./img/main/event_3.jpg" alt="event"></a>
-                    <p class="event_title"><span>[이벤트]</span><a href="#"> V-FIT 언더웨어 출시 기념 이벤트</a></p>
+                    <a href="./sub_html/sub_event.html"><img src="./img/main/event_3.jpg" alt="event" width="420px"></a>
+                    <p class="event_title"><span>[이벤트]</span><a href="./sub_html/sub_event.html"> V-FIT 언더웨어 출시 기념 이벤트</a></p>
                     <p class="period"><span>[기간]</span> 1/21 ~ 2/28</p>
                 </li>
             </ul>
@@ -233,9 +234,7 @@
                     <p>불공정거래 구조 개선을 통해 아시아, 아프리카
                         농촌지역<br>여성들과 지역 사회의 복지를 향상시키면서 소비자들에게는<br>기쁨을 주는 사명을 가지고 있습니다.</p>
                     <ul class="color_button">
-                        <li><a href="#">발키리가 지키고자 하는 더 많은 비전들을 알고싶다면?</a></li>
-                        <li><a href="#">발키리의 더 많은 이벤트가 궁금하시다면?
-                            </a></li>
+                        <li><a href="./sub_html/sub_vision.html">발키리가 지키고자 하는 더 많은 비전들을 알고싶다면?</a></li>
                     </ul>
                 </div>
             </div>
@@ -264,9 +263,20 @@
                 </ul>
             </div>
         </div>
+        <button>
+            ^<br>
+            TOP
+        </button>
     </div>
     <script src="js/swiper-bundle.min.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
     <script>
+                $("button").click(function () {
+            $('body,Html').animate({
+                scrollTop: 0
+            }, 1000)
+            // 1000은 시간(1초) //
+        });
         var swiper = new Swiper('.swiper-container', {
             slidesPerView: 5,
             spaceBetween: 0,
