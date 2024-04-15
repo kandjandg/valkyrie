@@ -217,18 +217,11 @@ body {
     position: absolute;
     top: -30px;
     left: 50px;
-    /* overflow: hidden; */
 }
 
-/* #banner_3 .b3_img img{
-    display: block;
-    transition: all 0.6s;
+.over {
+    overflow: hidden;
 }
-
-#banner_3 .b3_img img:hover{
-    transform: scale(1.2);
-} */
-
 
 #banner_3 .b3_textwrap {
     margin-left: 110px;
