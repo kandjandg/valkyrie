@@ -93,10 +93,11 @@ body {
     position: relative;
 }
 
-.search_bar img{
+.search_bar img {
     position: absolute;
     top: 9px;
     right: 18px;
+    cursor: pointer;
 }
 
 .search_bar input {
