@@ -269,6 +269,7 @@ body {
 
 .text_wrap li:nth-child(2){
     font-weight: 500;
+    line-height: 1.5em;
 }
 
 .cover2 {

@@ -135,7 +135,7 @@ body {
 #banner_1 {
     height: 500px;
     overflow: hidden;
-    background: url(../img/event/banner.jpg) no-repeat center;
+    background: url(../img/event/banner.png) no-repeat center;
 }
 
 #banner_1 ul {
@@ -172,6 +172,8 @@ body {
 #banner_4>p{
     font-weight: bold;
     color: #be1622;
+    margin-bottom: 30px;
+    font-size: 20px;
 }
 
 #banner_4 .event{

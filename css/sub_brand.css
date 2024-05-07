@@ -133,7 +133,8 @@ body {
 #banner_1 {
     height: 500px;
     overflow: hidden;
-    background: url(../img/brand/banner1.jpg) no-repeat center;
+    background: url(../img/brand/banner_1.jpg) no-repeat center;
+    background-size: 1920px;
 }
 
 #banner_1 ul {
@@ -267,40 +268,131 @@ body {
 }
 
 #banner_4 {
-    background: url(../img/brand/banner_4_background.jpg) no-repeat center;
-    height: 1060px;
-}
-
-#banner_4 .inner_banner_4{
     width: 1320px;
-    margin: 0 auto;
-    padding-top: 100px;
-    color: #707070;
-    line-height: 1.5em;
+    height: 490px;
+    margin: 180px auto 0;
 }
 
-#banner_4 .inner_banner_4 h2{
+#banner_4 .b4_title{
+    width: 1320px;
+    margin: 0 auto 150px;
+    text-align: center;
+}
+
+#banner_4 h2{
     color: #be1622;
     font-size: 40px;
 }
 
-#banner_4 .inner_banner_4 .text_box{
-    padding: 10px 20px 0 30px;
+#banner_4 .b4_title p{
+    /* padding-left: 10px; */
+    color: #c9c9ca;
+    font-weight: 500;
 }
 
-#banner_4 .ci_box h3{
-    color: #be1622;
-    margin-top: 60px;
-}
-
-#banner_4 .ci_box ul{
+#banner_4 .inner_banner_4{
+    position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
-#banner_4 .ci_box ul li:nth-child(1){
-    margin-left: 70px;
+#banner_4 .greybox {
+    background: url(../img/brand/banner_4_background.jpg) no-repeat;
+    width: 580px;
+    height: 440px;
+}
+
+#banner_4 .b4_img {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+#banner_4 .b4_textwrap {
+    margin-top: 80px;
+    line-height: 1.5rem;
+}
+
+#banner_4 .b4_text{
+    padding: 30px 0 20px;
+}
+
+#banner_5 {
+    width: 1320px;
+    height: 860px;
+    margin: 300px auto 0;
+    position: relative;
+    display: flex;
+}
+
+#banner_5 .b5_imgwrap {
+    position: relative;
+    width: 660px;
+}
+
+#banner_5 .greybox {
+    background: url(../img/brand/banner_5_background.jpg) no-repeat;
+    width: 610px;
+    height: 797px;
+    margin-top: 30px;
+}
+
+#banner_5 .b5_img {
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+
+.over {
+    overflow: hidden;
+}
+
+#banner_5 .b5_textwrap {
+    margin-left: 110px;
+    margin-top: 120px;
+    line-height: 1.5rem;
+}
+
+#banner_5 .b5_textwrap p:nth-child(1) {
+    margin-top: 30px;
+}
+#banner_5 .b5_textwrap .b5_text {
+    margin: 20px 0;
+}
+
+#banner_6 {
+    margin-top: 150px;
+    height: 460px;
+    background: url(../img/brand/banner_6.jpg) no-repeat center;
+    background-size: 1920px;
+}
+
+#banner_6 .inner_banner6{
+    margin: 0 auto;
+    width: 1320px;
+    position: relative;
+}
+
+#banner_6 .inner_banner6 ul{
+    display: flex;
+    height: 460px;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#banner_6 .inner_banner6 ul li{
+    line-height: 1.5em;
+}
+
+#banner_6 .inner_banner6 ul li:nth-child(2){
+    margin: 30px 0 10px;
+}
+
+#banner_6 .inner_banner6 img{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #footer{

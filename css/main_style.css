@@ -224,6 +224,7 @@ body {
 #banner_4 ul:nth-child(1)>:nth-child(1) {
     font-weight: bold;
     color: #be1622;
+    font-size: 20px;
 }
 
 #slide_wrap .button a,
@@ -299,23 +300,36 @@ body {
 
 #banner_3 {
     margin-top: 250px;
-    background: url(../img/main/bg.jpg) no-repeat center;
+    background: url(../img/main/banner11.jpg) no-repeat center;
     align-items: center;
+    position: relative;
 }
 
-#banner_3>div {
+#banner_3 .inner_banner3 {
     width: 1320px;
-    height: 600px;
+    height: 500px;
     margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    position: relative;
 }
 
 #banner_3 .b3_textwrap {
-    width: 660px;
-    position: relative;
-    line-height : 1.5rem
+    padding-top: 80px;
+    line-height : 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    text-shadow: 2px 2px 5px #333;
+}
+
+#banner_3 .b3_imgwrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#banner_3 .b3_textbox{
+    width: 500px;
 }
 
 #banner_3 .button a{

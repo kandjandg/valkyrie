@@ -169,9 +169,10 @@ body {
 }
 
 #banner_2 > p{
-    font-weight: bold;
+    font-weight: 900;
     color: #be1622;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
+    font-size: 30px;
 }
 
 .swiper {
@@ -215,118 +216,45 @@ body {
 
 #banner_3{
     width: 1320px;
-    margin: 180px auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.recipe_text li:nth-child(1){
-    color: #be1622;
-    font-weight: 800;
-    font-size: 20px;
-}
-
-.recipe_text li:nth-child(2){
-    margin: 20px 0 22px;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.recipe_text li:nth-child(3){
-    font-weight: 500;
-    margin-bottom: 22px;
-}
-
-.recipe_text img{
-    display: block;
-    margin-top: 10px;
-}
-
-.recipe_img{
-    display: flex;
-    width: 660px;
-    height: 488px;
-    background-color: #9B0F25;
-    padding: 0 40px;
-    box-sizing: border-box;
-    justify-content: space-between;
-    align-items: center;
-}
-.recipe_img li{
-    font-size: 15px;
-    color: #fff;
-}
-
-.recipe_img li p{
-    margin-bottom: 18px;
-}
-
-.recipe_img li p:last-child{
-    margin-bottom: 0;
-}
-
-.recipe_img li:nth-child(2){
-    position: relative;
-    top: -50px;
-    right: 0;
-}
-
-#banner_4{
-    background-color: #3a4456;
-    height: 500px;
-    color: #fff;
-}
-
-#banner_4 .inner_banner4{
-    width: 1320px;
     margin: 0 auto;
+    margin-top: 150px;
 }
 
-.inner_banner4 h1{
-    padding-top: 80px;
+#banner_3 h1{
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 60px;
+    color: #be1622;
 }
 
-.inner_banner4>p{
-    font-size: 15px;
-    padding: 10px 0 30px;
-}
-
-.b4_tab {
+#banner_3 ul{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#banner_3 ul li{
+    text-align: center;
+}
+#banner_3 ul li .img_wrap{
+    perspective: 2000px;
 }
 
-.b4_tab li{
-    position: relative;
-    margin-bottom: 10px;
+#banner_3 ul li img{
+    overflow: hidden;
+    transition: transform 1s;
+    display: block;
 }
 
-.b4_tab li a .b4_tab_img{
-    position: absolute;
-    top: 10px;
-    left: 40px;
+#banner_3 ul li a:hover img{
+    transform: rotateY(180deg);
 }
 
-.b4_tab li a .b4_tab_name{
-    position: absolute;
-    left: 195px;
-    top: 42px;
-    color: #333;
-}
-
-.b4_tab_name ul{
-    display: flex;
-}
-
-.b4_tab_name ul li:nth-child(1){
-    font-size: 25px;
-    font-weight: 500;
-    margin-right: 10px;
+#banner_3 ul li p{
+    font-weight: 700;
+    padding-top: 20px;
 }
 
 #footer {
-    margin-top: 100px;
+    margin-top: 150px;
     background-color: #444444;
     align-items: center;
 }
